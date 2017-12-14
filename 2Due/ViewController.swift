@@ -10,6 +10,9 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var FinishButton: NSButton!
+    @IBOutlet weak var TaskBox: NSTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
